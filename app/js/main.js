@@ -6,6 +6,13 @@ $(function () {
     fade: true,
     autoplay: true,
     autoplaySpeed: 2000
-  })
+  });
+
+  $(".star").rateYo({
+    readOnly: true,
+    starWidth: "17px",
+    normalFill: "#ccccce",
+    ratedFill: "#ffc35b"
+  });
   
 });
